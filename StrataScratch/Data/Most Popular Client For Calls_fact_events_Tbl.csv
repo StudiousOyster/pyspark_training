@@ -1,0 +1,151 @@
+﻿id,time_id,user_id,customer_id,client_id,event_type,event_id
+1,43889,3668-QPYBK,Sendit,desktop,message sent,3
+2,43889,7892-POOKP,Connectix,mobile,file received,2
+3,43924,9763-GRSKD,Zoomit,desktop,video call received,7
+4,43923,9763-GRSKD,Connectix,desktop,video call received,7
+5,43867,9237-HQITU,Sendit,desktop,video call received,7
+6,43888,8191-XWSZG,Connectix,desktop,file received,2
+7,43924,9237-HQITU,Connectix,desktop,video call received,7
+8,43891,9237-HQITU,Connectix,mobile,message received,4
+9,43923,4190-MFLUW,Connectix,mobile,video call received,7
+10,43942,9763-GRSKD,Sendit,desktop,file received,2
+11,43889,5129-JLPIS,Electric Gravity,mobile,video call started,6
+12,43921,6713-OKOMC,Connectix,desktop,file received,2
+13,43911,6388-TABGU,Connectix,desktop,message sent,3
+14,43893,7469-LKBCI,Connectix,mobile,video call received,7
+15,43872,9237-HQITU,Connectix,desktop,video call received,7
+16,43891,5575-GNVDE,Zoomit,desktop,file received,2
+17,43892,6388-TABGU,Connectix,desktop,message sent,3
+18,43927,9305-CDSKC,Connectix,desktop,message received,4
+19,43874,3668-QPYBK,Connectix,mobile,file sent,1
+20,43924,9959-WOFKT,Connectix,desktop,file received,2
+21,43905,9305-CDSKC,Zoomit,mobile,message received,4
+22,43922,7892-POOKP,eShop,mobile,voice call started,8
+23,43930,8191-XWSZG,Connectix,mobile,file received,2
+24,43929,3668-QPYBK,eShop,desktop,message sent,3
+25,43895,8191-XWSZG,Zoomit,mobile,file received,2
+26,43885,3668-QPYBK,Connectix,mobile,api message received,5
+27,43916,6388-TABGU,Zoomit,desktop,message received,4
+28,43864,7795-CFOCW,Connectix,mobile,api message received,5
+29,43909,7892-POOKP,Connectix,desktop,message received,4
+30,43928,9763-GRSKD,Connectix,mobile,message sent,3
+31,43927,9959-WOFKT,Connectix,desktop,message received,4
+32,43876,9237-HQITU,Connectix,mobile,message sent,3
+33,43927,4183-MYFRB,Sendit,desktop,file received,2
+34,43903,9305-CDSKC,Connectix,desktop,video call received,7
+35,43926,9959-WOFKT,Connectix,mobile,message received,4
+36,43918,6388-TABGU,Connectix,desktop,message sent,3
+37,43924,4183-MYFRB,Connectix,desktop,message received,4
+38,43905,5575-GNVDE,Electric Gravity,desktop,video call started,6
+39,43896,8091-TTVAX,Zoomit,desktop,file received,2
+40,43915,4190-MFLUW,Connectix,mobile,file received,2
+41,43934,9959-WOFKT,Zoomit,mobile,video call received,7
+42,43881,7590-VHVEG,Sendit,desktop,file received,2
+43,43903,9305-CDSKC,Connectix,mobile,voice call received,9
+44,43883,1452-KIOVK,Zoomit,mobile,voice call started,8
+45,43939,9959-WOFKT,Connectix,desktop,file received,2
+46,43865,9305-CDSKC,Connectix,desktop,message sent,3
+47,43927,4190-MFLUW,Connectix,mobile,file sent,1
+48,43912,1452-KIOVK,Connectix,mobile,file sent,1
+49,43927,5129-JLPIS,Sendit,desktop,message sent,3
+50,43925,7469-LKBCI,Sendit,mobile,message received,4
+51,43875,3668-QPYBK,Connectix,desktop,message received,4
+52,43918,5575-GNVDE,Sendit,desktop,file received,2
+53,43926,8091-TTVAX,Connectix,desktop,message sent,3
+54,43891,7469-LKBCI,Connectix,desktop,video call started,6
+55,43881,5129-JLPIS,Connectix,desktop,voice call received,9
+56,43903,7590-VHVEG,Zoomit,mobile,message received,4
+57,43930,8091-TTVAX,Sendit,desktop,video call received,7
+58,43888,9237-HQITU,eShop,desktop,video call received,7
+59,43914,8191-XWSZG,Connectix,mobile,video call received,7
+60,43909,7469-LKBCI,Sendit,desktop,video call received,7
+61,43919,7892-POOKP,Connectix,desktop,message received,4
+62,43904,5129-JLPIS,Connectix,mobile,message sent,3
+63,43897,4190-MFLUW,Electric Gravity,desktop,message sent,3
+64,43895,4190-MFLUW,Connectix,desktop,file sent,1
+65,43867,3668-QPYBK,Sendit,desktop,video call received,7
+66,43869,6713-OKOMC,Connectix,desktop,voice call started,8
+67,43885,6713-OKOMC,Connectix,mobile,file sent,1
+68,43915,7469-LKBCI,Connectix,mobile,message received,4
+69,43873,1452-KIOVK,Connectix,desktop,message sent,3
+70,43869,7795-CFOCW,Connectix,desktop,voice call received,9
+71,43900,7469-LKBCI,Connectix,mobile,video call received,7
+72,43899,9237-HQITU,Sendit,desktop,video call received,7
+73,43903,5575-GNVDE,Sendit,mobile,voice call received,9
+74,43907,7469-LKBCI,Electric Gravity,desktop,message received,4
+75,43892,4190-MFLUW,Sendit,mobile,message sent,3
+76,43930,7892-POOKP,Sendit,desktop,file sent,1
+77,43908,7590-VHVEG,Sendit,mobile,message received,4
+78,43888,3655-SNQYZ,Sendit,desktop,file received,2
+79,43864,7469-LKBCI,Zoomit,desktop,file received,2
+80,43864,0280-XJGEX,eShop,desktop,message sent,3
+81,43886,6713-OKOMC,Connectix,desktop,message received,4
+82,43880,6713-OKOMC,Connectix,mobile,file sent,1
+83,43916,7590-VHVEG,Electric Gravity,desktop,video call received,7
+84,43909,8091-TTVAX,eShop,desktop,message received,4
+85,43878,9237-HQITU,Connectix,desktop,file sent,1
+86,43904,3668-QPYBK,Sendit,mobile,file sent,1
+87,43878,8191-XWSZG,Connectix,mobile,video call started,6
+88,43874,3668-QPYBK,Sendit,desktop,voice call started,8
+89,43922,9959-WOFKT,Connectix,mobile,video call started,6
+90,43916,7795-CFOCW,Sendit,desktop,file received,2
+91,43929,7795-CFOCW,Zoomit,mobile,message received,4
+92,43918,9305-CDSKC,Connectix,desktop,file sent,1
+93,43896,6713-OKOMC,Connectix,desktop,file received,2
+94,43884,9305-CDSKC,Sendit,desktop,message sent,3
+95,43909,5575-GNVDE,Sendit,desktop,voice call received,9
+96,43918,3668-QPYBK,eShop,desktop,message received,4
+97,43912,8091-TTVAX,Connectix,mobile,voice call received,9
+98,43870,3655-SNQYZ,Connectix,desktop,file received,2
+99,43908,6388-TABGU,Sendit,desktop,message received,4
+100,43921,3668-QPYBK,Sendit,mobile,file sent,1
+101,43892,5129-JLPIS,Sendit,desktop,message sent,3
+102,43892,9237-HQITU,Connectix,desktop,voice call received,9
+103,43891,9305-CDSKC,Connectix,desktop,message received,4
+104,43928,5575-GNVDE,Connectix,mobile,message received,4
+105,43878,8191-XWSZG,Zoomit,mobile,message received,4
+106,43892,0280-XJGEX,Electric Gravity,mobile,video call started,6
+107,43868,7590-VHVEG,eShop,mobile,video call received,7
+108,43896,7892-POOKP,Connectix,mobile,message sent,3
+109,43864,9237-HQITU,Sendit,mobile,video call started,6
+110,43892,1452-KIOVK,eShop,mobile,file received,2
+111,43865,7892-POOKP,Connectix,desktop,message received,4
+112,43892,8191-XWSZG,Connectix,desktop,message received,4
+113,43915,4183-MYFRB,Sendit,desktop,video call received,7
+114,43884,6713-OKOMC,Connectix,desktop,message sent,3
+115,43892,9305-CDSKC,Sendit,desktop,voice call started,8
+116,43901,7590-VHVEG,Sendit,desktop,api message received,5
+117,43929,8091-TTVAX,Zoomit,mobile,file sent,1
+118,43862,6713-OKOMC,Electric Gravity,mobile,file received,2
+119,43914,8091-TTVAX,Electric Gravity,desktop,message sent,3
+120,43896,8091-TTVAX,Electric Gravity,mobile,file sent,1
+121,43899,5575-GNVDE,Connectix,mobile,file sent,1
+122,43912,8091-TTVAX,Connectix,mobile,video call received,7
+123,43892,7469-LKBCI,Connectix,mobile,video call started,6
+124,43913,5575-GNVDE,Connectix,mobile,voice call received,9
+125,43920,9305-CDSKC,eShop,desktop,message sent,3
+126,43915,4190-MFLUW,Connectix,desktop,video call started,6
+127,43899,7590-VHVEG,Connectix,mobile,api message received,5
+128,43904,7795-CFOCW,Sendit,desktop,file received,2
+129,43925,9959-WOFKT,Connectix,mobile,message received,4
+130,43921,5129-JLPIS,Connectix,desktop,video call received,7
+131,43917,4183-MYFRB,Connectix,desktop,voice call received,9
+132,43924,5129-JLPIS,Connectix,desktop,file received,2
+133,43891,0280-XJGEX,Connectix,desktop,video call started,6
+134,43937,9763-GRSKD,Connectix,desktop,message sent,3
+135,43897,6388-TABGU,Connectix,desktop,api message received,5
+136,43910,9305-CDSKC,Zoomit,mobile,message sent,3
+137,43900,8091-TTVAX,Sendit,desktop,video call started,6
+138,43910,0280-XJGEX,Zoomit,mobile,message sent,3
+139,43884,5129-JLPIS,Connectix,mobile,file received,2
+140,43879,7590-VHVEG,Connectix,mobile,file sent,1
+141,43879,1452-KIOVK,Connectix,mobile,file received,2
+142,43869,3668-QPYBK,Sendit,desktop,message received,4
+143,43934,7469-LKBCI,Sendit,desktop,video call received,7
+144,43912,6388-TABGU,eShop,mobile,file sent,1
+145,43903,0280-XJGEX,Sendit,desktop,message sent,3
+146,43897,6388-TABGU,Connectix,desktop,voice call received,9
+147,43911,8091-TTVAX,Connectix,mobile,message sent,3
+148,43924,8191-XWSZG,Connectix,desktop,file received,2
+149,43883,7795-CFOCW,Connectix,desktop,message received,4
+150,43875,7590-VHVEG,Connectix,desktop,message received,4
