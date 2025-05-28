@@ -10,6 +10,8 @@ def read_config (spark: SparkSession, config_folder, config_file):
                 .option('header', True) \
                 .load(full_path)
                 
-    print(df_config.collect())
+    # config_rows = [row.asDict() for row in df_config.collect()]
+    
+    return df_config.collect()
     
     
