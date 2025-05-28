@@ -1,8 +1,8 @@
 
-# import os, sys 
-# sys.path.append('./')
-from user_functions.config_reader import read_config
-from user_functions.column_matching import match_columns
+import os, sys 
+sys.path.append('..')
+from user_functions import config_reader
+# from testing_framework.user_functions.config_reader import read_config
 
 import pyspark
 from pyspark.sql import SparkSession
@@ -39,8 +39,7 @@ for row in configs:
                 .option('inferSchema', True)\
                 .load(tgt_full_path)
     
-    print(f'Column mismatch testing between the src - {src_file_name} and the tgt - {tgt_file_name}')
-    match_columns(spark, src_df, tgt_df)
+    
     
     
     

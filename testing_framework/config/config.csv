@@ -1,2 +1,2 @@
 ﻿src_folder_path,src_file_name,tgt_folder_path,tgt_file_name,key_column
-C:\Users\chipp\OneDrive\Desktop\Training Folder\Pyspark_Training\pyspark_training\testing_framework\data,src.csv,C:\Users\chipp\OneDrive\Desktop\Training Folder\Pyspark_Training\pyspark_training\testing_framework\data,tgt.parquet,TransactionId
+C:\Users\chipp\OneDrive\Desktop\Training Folder\Pyspark_Training\pyspark_training\testing_framework\data,src.csv,C:\Users\chipp\OneDrive\Desktop\Training Folder\Pyspark_Training\pyspark_training\testing_framework\data,tgt.csv,TransactionId
