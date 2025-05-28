@@ -1,0 +1,3 @@
+TargetdfName,FileLocation,SrcTableName,refdfName
+orders_df,dbfs:/FileStore/tables/Orders_data.csv,Orders_data,reference_df
+returns_df,dbfs:/FileStore/tables/Returns_data.csv,Returns_data,reference_df

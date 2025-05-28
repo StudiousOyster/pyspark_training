@@ -1,0 +1,31 @@
+device_id,device_name,device_type,device_os,created_timestamp
+1,"HP","PC","Windows",2021-01-01 00:00:00.0000000
+2,"Lenovo","PC","Linux",2021-01-01 00:00:00.0000000
+3,"iMac","PC","macOS",2021-01-01 00:00:00.0000000
+4,"Raspberry Pi","PC","Linux",2021-01-01 00:00:00.0000000
+5,"MSI","PC","Windows",2021-01-01 00:00:00.0000000
+6,"Dell","PC","Windows",2021-01-01 00:00:00.0000000
+7,"HP","Laptop","Windows",2021-01-01 00:00:00.0000000
+8,"Dell","Laptop","Windows",2021-01-01 00:00:00.0000000
+9,"Lenovo","Laptop","Windows",2021-01-01 00:00:00.0000000
+10,"ASUS","Laptop","Linux",2021-01-01 00:00:00.0000000
+11,"Apple MacBook Air","Laptop","macOS",2021-01-01 00:00:00.0000000
+12,"Apple MacBook","Laptop","macOS",2021-01-01 00:00:00.0000000
+13,"Apple MacBook Pro","Laptop","macOS",2021-01-01 00:00:00.0000000
+14,"iPhone 8","Mobile","iOS",2021-01-01 00:00:00.0000000
+15,"iPhone 11","Mobile","iOS",2021-01-01 00:00:00.0000000
+16,"iPhone 12","Mobile","iOS",2021-01-01 00:00:00.0000000
+17,"iPhone 13","Mobile","iOS",2021-01-01 00:00:00.0000000
+18,"Samsung S10","Mobile","Android",2021-01-01 00:00:00.0000000
+19,"Samsung Note","Mobile","Android",2021-01-01 00:00:00.0000000
+20,"Samsung S20","Mobile","Android",2021-01-01 00:00:00.0000000
+21,"Xiaomi Civi Pro","Mobile","Android",2021-01-01 00:00:00.0000000
+22,"Sony Xperia Pro-I","Mobile","Android",2021-01-01 00:00:00.0000000
+23,"Meizu 18","Mobile","Android",2021-01-01 00:00:00.0000000
+24,"Huawei Mate 40","Mobile","Android",2021-01-01 00:00:00.0000000
+25,"Apple TV","SmartTV","tvOS",2021-01-01 00:00:00.0000000
+26,"Samsung","SmartTV","Android",2021-01-01 00:00:00.0000000
+27,"VOX","SmartTV","Android",2021-01-01 00:00:00.0000000
+28,"Sony","SmartTV","Linux",2021-01-01 00:00:00.0000000
+29,"LG Signature","SmartTV","WebOS",2021-01-01 00:00:00.0000000
+30,"LG OLED","SmartTV","WebOS",2021-01-01 00:00:00.0000000
