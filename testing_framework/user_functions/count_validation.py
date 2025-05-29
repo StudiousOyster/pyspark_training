@@ -9,14 +9,15 @@ def count_check(spark: SparkSession, src_df, tgt_df):
         print('Data count is a match')
     else:
         print("Data count mismatch. Further investigation required")
+        print(f"Data count in Source: {src_count} and data count in Target: {tgt_count}")
         
     # to check the entire rows that are missing from tgt and not in source and also vice versa
-    mismatched_complete = src_df.subtract(tgt_df).union(
-        tgt_df.subtract(src_df)
-    )
+    # mismatched_complete = src_df.subtract(tgt_df).union(
+    #     tgt_df.subtract(src_df)
+    # )
     
-    # to get the count of these mismatched rows
-    if mismatched_complete.count() > 0:
-        print(f'The number of complete rows that are mismatched are: {mismatched_complete.count()}')
+    # # to get the count of these mismatched rows
+    # if mismatched_complete.count() > 0:
+    #     print(f'The number of complete rows that are mismatched are: {mismatched_complete.count()}')
         
         
