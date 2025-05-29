@@ -3,6 +3,7 @@
 # sys.path.append('./')
 from user_functions.config_reader import read_config
 from user_functions.column_matching import match_columns
+from user_functions.count_validation import count_check
 
 import pyspark
 from pyspark.sql import SparkSession
@@ -42,6 +43,9 @@ for row in configs:
     print(f'Column mismatch testing between the src - {src_file_name} and the tgt - {tgt_file_name}')
     match_columns(spark, src_df, tgt_df)
     
+    print(f'Count validation results between the source: {src_file_name} and the target: {tgt_file_name}')
+    count_check(spark, src_df, tgt_df)
     
+    print(f'Data validation results between the source: {src_file_name} and the target: {tgt_file_name}')
     
     
