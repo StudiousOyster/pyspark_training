@@ -12,11 +12,10 @@ def match_columns(spark: SparkSession, src_df, tgt_df):
     excluded_cols_tgt = [col.strip().lower() for col in excluded_cols_tgt]
     
     # create the final list of columns for both src and tgt
-    src_cols = [col.strip().lower() for col in src_df.columns if col.strip().lower() not in excluded_cols_src]
-    # tgt_cols = [col.strip().lower() for col in tgt_df.columns if col.strip().lower() not in excluded_cols_tgt]
-    tgt_cols = ['cinemacode', 'movieid', 'cinemaname', 'ticketcount', 'ticketprice', 'transactionid', 'transactiondt']
-    
-   
+    src_cols = [col for col in src_df.columns if col not in excluded_cols_src]
+    tgt_cols = [col for col in tgt_df.columns if col not in excluded_cols_tgt]
+    # tgt_cols = ['cinemacode', 'movieid', 'cinemaname', 'ticketcount', 'ticketprice', 'transactionid', 'transactiondt']
+       
     if src_cols == tgt_cols:
         print('The number and the position of columns are a match between the Src and the Tgt')
         # return True # this can be done if we are using pytest or other framework and for assertions in the main file
@@ -28,8 +27,6 @@ def match_columns(spark: SparkSession, src_df, tgt_df):
     for idx, (src_col, tgt_col) in enumerate(zip(src_cols, tgt_cols)):
         if src_col != tgt_col:
             mismatched.append((idx, src_col, tgt_col))
-            
-    print(mismatched)
             
     if mismatched:
         print('Mismatched columns by position/index:')

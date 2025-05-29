@@ -4,10 +4,12 @@
 from user_functions.config_reader import read_config
 from user_functions.column_matching import match_columns
 from user_functions.count_validation import count_check
+from user_functions.data_validation import data_check
 
 import pyspark
 from pyspark.sql import SparkSession
 import os
+import re
 
 
 os.environ['JAVA_HOME'] = "C:/Program Files/Java/jdk-11"
@@ -40,6 +42,34 @@ for row in configs:
                 .option('inferSchema', True)\
                 .load(tgt_full_path)
     
+    # parquet file --> tgt_df = spark.read.parquet('filepath')
+    
+    # creating a dictionary to store the old and new column names
+    src_clean_cols = {}
+    tgt_clean_cols = {}
+    
+    # cleaning the column names of both dfs so that they would be the same
+    for col in src_df.columns:
+        clean_col = re.sub(r'[^a-zA-Z0-9]', '', col.strip().lower())
+        src_clean_cols[col] = clean_col
+        
+    for col in tgt_df.columns:
+        clean_col = re.sub(r'[^a-zA-Z0-9]', '', col.strip().lower())
+        tgt_clean_cols[col] = clean_col
+        
+    # renaming the df with the cleaned col names
+    for old_col, new_col in src_clean_cols.items():
+        src_df = src_df.withColumnRenamed(
+            old_col,
+            new_col
+        )
+        
+    for old_col, new_col in tgt_clean_cols.items():
+        tgt_df = tgt_df.withColumnRenamed(
+            old_col,
+            new_col
+        )
+    
     print(f'Column mismatch testing between the src - {src_file_name} and the tgt - {tgt_file_name}')
     match_columns(spark, src_df, tgt_df)
     
@@ -47,5 +77,5 @@ for row in configs:
     count_check(spark, src_df, tgt_df)
     
     print(f'Data validation results between the source: {src_file_name} and the target: {tgt_file_name}')
-    
+    data_check(spark, src_df, tgt_df)
     
