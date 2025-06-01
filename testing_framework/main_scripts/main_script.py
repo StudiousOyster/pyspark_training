@@ -1,6 +1,11 @@
 
-# import os, sys 
-# sys.path.append('./')
+import os, sys 
+
+BASE = os.path.dirname(os.path.abspath(__file__))
+parent_folder = os.path.join(BASE, "..")
+
+sys.path.append(parent_folder)
+
 
 from user_functions.config_reader import read_config
 from user_functions.column_matching import match_columns
